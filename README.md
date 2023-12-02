@@ -2,15 +2,26 @@
 
 A new Flutter project.
 
-## Getting Started
+The objective of this project is to develop a Flutter application that uses Streams to provide data to a dynamic ListView using StreamBuilder and ListView.builder.
 
-This project is a starting point for a Flutter application.
+#Installation
 
-A few resources to get you started if this is your first Flutter project:
+To install this project, follow these steps:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the repository:
+git clone https://github.com/bard/flutter-streambuilder-listview-dynamic.git
+Enter the project directory:
+cd flutter-streambuilder-listview-dynamic
+Install the dependencies:
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#Execution
+
+To run the project, follow these steps:
+
+Install Flutter if you haven't already:
+https://flutter.dev/docs/get-started/install
+Start the emulator or physical device:
+flutter emulators --launch <emulator name>
+Run the application:
+flutter run
